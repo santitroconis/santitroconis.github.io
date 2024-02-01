@@ -13,3 +13,5 @@ prevScrollPos = currentScrollPos;
     currentScrollPos < 40 ? navClass.remove(shadowClass) : navClass.add(shadowClass)
 }
 
+
+

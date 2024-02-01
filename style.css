@@ -31,46 +31,72 @@ nav{
   font-weight: bold;
 
 }
+#nav-logo{
+  margin-left: 50px;
+  height: 100%;
+}
 
 nav a{
   all: unset;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
+#side-left{
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  /* background-color: pink; */
+  top: 380px;
+  left: 70px;
+  width: 50px;
+  height: 200px;
+}
+#st-links{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+#side-right{
+  position: fixed;
+  background-color: pink;
+  top: 400px;
+  right: 40px;
+  width: 80px;
+  height: 200px;
+}
+
 
 .show-shadow{
   box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.2);
-}
-#nav-logo{
-  height: 100%;
 }
 #categories{
   list-style: none;
   display: flex;
   gap: 25px;
   margin-left: auto;
+  margin-right: 50px;
 }
 
 /* CONTENT */
 #content{
-  /* background-color: aqua; */
   max-width: 900px;
   margin: auto;
   height: 450px;
 }
-#about-h6{
+#home-h6{
   color: #76be5d;
   font-family: 'Source Code Pro', monospace;
   font-size: 15px;
   margin: 0;
 }
-#about-name{
+#home-name{
   color: white;
   font-family: 'Encode Sans Condensed', sans-serif;
   font-size: 70px;
   margin: 0;
 }
-#about-p{
+#home-p{
   color: #76be5d;
   font-family: 'Encode Sans Condensed', sans-serif;
   font-size: 70px;
