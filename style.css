@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@600&family=Source+Code+Pro:wght@200&display=swap');
 
 * {
   font-family: "Poppins", sans-serif;
@@ -21,7 +23,7 @@ nav{
   transition: 0.3s;
 
   width: 100%;
-  height: 80px;
+  height: 90px;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -51,8 +53,26 @@ nav a{
 
 /* CONTENT */
 #content{
-  background-color: aqua;
-  max-width: 1000px;
+  /* background-color: aqua; */
+  max-width: 900px;
   margin: auto;
   height: 450px;
+}
+#about-h6{
+  color: #76be5d;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 15px;
+  margin: 0;
+}
+#about-name{
+  color: white;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 70px;
+  margin: 0;
+}
+#about-p{
+  color: #76be5d;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 70px;
+  margin: 0;
 }
