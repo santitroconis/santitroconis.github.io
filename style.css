@@ -17,7 +17,6 @@ body{
 /* NAVIGATION BAR */
 nav{
   background-color: #152c11;
-  /* background-color: blueviolet; */
   position: fixed;
   top: 0;
   transition: 0.3s;
@@ -44,7 +43,6 @@ nav a{
   position: fixed;
   align-items: center;
   justify-content: center;
-  /* background-color: pink; */
   top: 380px;
   left: 70px;
   width: 50px;
@@ -59,12 +57,17 @@ nav a{
 }
 #side-right{
   position: fixed;
-  background-color: pink;
+  
   top: 400px;
-  right: 40px;
+  right: 30px;
   width: 80px;
   height: 200px;
 }
+#mail{
+  font-size: 14px;
+  font-family: 'Source Code Pro', monospace;
+}
+
 
 
 .show-shadow{
