@@ -1,0 +1,112 @@
+
+@media only screen and (min-width: 1150px){
+  
+    * {
+      font-size: 20px;
+    }
+    
+    body{
+      color:white;
+      background-color: #152c11;
+      margin: 15vh auto auto auto;
+      height: 3000px;
+    }
+    
+    /* NAVIGATION BAR */
+    nav{
+      background-color: #152c11;
+      position: fixed;
+      top: 0;
+      transition: 0.3s;
+    
+      width: 100%;
+      height: 15vh;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      box-sizing: border-box;
+      font-weight: bold;
+    
+    }
+    #nav-logo{
+      margin-left: 50px;
+      height: 100%;
+    }
+    
+    nav a{
+      all: unset;
+      cursor: pointer; 
+    }
+    #side-left{
+      position: fixed;
+      align-items: center;
+      justify-content: center;
+      top: 380px;
+      left: 70px;
+      width: 50px;
+      height: 200px;
+    }
+    #pages-links{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 10px;
+    }
+    #side-right{
+      position: fixed;
+      
+      top: 400px;
+      right: 30px;
+      width: 80px;
+      height: 200px;
+    }
+    #mail{
+      font-style: unset;
+      color: white;
+      font-size: 14px;
+      font-family: 'Source Code Pro', monospace;
+      cursor: pointer; 
+      transform: rotate(90deg);
+    }
+    
+    #categories{
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin-left: auto;
+      margin-right: 50px;
+    }
+    
+    /* CONTENT */
+    .content{
+      max-width: 900px;
+      margin: auto;
+      height: 100%;
+    }
+    #home-h6{
+      color: #76be5d;
+      font-family: 'Source Code Pro', monospace;
+      font-size: 15px;
+      margin: 0;
+    }
+    #home-name{
+      color: white;
+      font-family: 'Encode Sans Condensed', sans-serif;
+      font-size: 70px;
+      margin: 0;
+    }
+    #home-h2{
+      color: #76be5d;
+      font-family: 'Encode Sans Condensed', sans-serif;
+      font-size: 70px;
+      margin: 0;
+    }
+    #c1{
+      height: 85vh;
+    }
+    #c2{
+      height: 100vh;
+    }
+
+}
