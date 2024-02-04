@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 1150px){
+@media only screen and (min-width: 1000px){
   
     * {
       font-size: 20px;
@@ -20,7 +20,7 @@
       transition: 0.3s;
     
       width: 100%;
-      height: 15vh;
+      height: 100px;
       display: flex;
       align-items: center;
       padding: 10px;
@@ -41,7 +41,7 @@
       position: fixed;
       align-items: center;
       justify-content: center;
-      top: 380px;
+      bottom: 10%;
       left: 70px;
       width: 50px;
       height: 200px;
@@ -55,11 +55,12 @@
     }
     #side-right{
       position: fixed;
-      
-      top: 400px;
-      right: 30px;
+      top: 70%;
+      right: 3%;
       width: 80px;
       height: 200px;
+      
+      
     }
     #mail{
       font-style: unset;
@@ -81,14 +82,14 @@
     /* CONTENT */
     .content{
       max-width: 900px;
-      margin: auto;
+      margin: 0px 10% 0px 15%;
       height: 100%;
     }
     #home-h6{
       color: #76be5d;
       font-family: 'Source Code Pro', monospace;
       font-size: 15px;
-      margin: 0;
+      margin: 0px 0px 0px 0px;
     }
     #home-name{
       color: white;
