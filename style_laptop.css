@@ -110,20 +110,21 @@
       height: 85vh;
     }
     .content_box{
-        display: flex;
+      display: flex;
     }
     h3{
-        padding-top: 12%;
+      padding-top: 12%;
     }
     #about{
-        height: 100vh;
+      height: 100vh;
     }
     #about-info{
-        width: 60%;
+      margin: 0;
+      width: 60%;
     }
     #st-photo{
-        max-width: 30%;
-        height: auto;
+      max-width: 30%;
+      height: auto;
     }
 
 }
